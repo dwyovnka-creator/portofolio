@@ -59,6 +59,14 @@ body {
     text-align: center;
 }
 
+.about p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #aaa;
+}
+
 .about h2 {
     font-size: 36px;
     margin-bottom: 10px;
