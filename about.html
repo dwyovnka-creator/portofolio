@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="about fade-in">
+<div class="profile">
+    <img src="{{ url_for('static', filename='img/profile.jpg') }}" alt="profile">
+</div>
+    <h2>About Me</h2>
+    <p class="tagline">"Power in silence."</p>
+
+    
+    <p>
+        Saya adalah individu yang fokus pada pengembangan teknologi, 
+        dengan pendekatan yang tenang namun efektif. 
+        Lebih banyak bekerja daripada berbicara.
+    </p>
+        <p>
+        Saya adalah individu yang fokus pada pengembangan teknologi, 
+        dengan pendekatan yang tenang namun efektif. 
+        Lebih banyak bekerja daripada berbicara.
+    </p>
+     <div class="about-images">
+        <img src="/static/img/foto1.jpg" alt="foto 1">
+        <img src="/static/img/foto2.jpg" alt="foto 2">
+        <img src="/static/img/foto3.jpg" alt="foto 3">
+    </div>
+</section>
+</section>
+{% endblock %}
